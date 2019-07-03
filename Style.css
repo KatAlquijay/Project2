@@ -1,0 +1,68 @@
+body { 
+    background-image: url ("salepink.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+}
+
+
+.header {
+    background-color:"";
+    padding: -5px;
+    text-align: center;
+    font-size: 35px;
+    color: lavender;
+    font-family: 'Lobster', cursive;
+}
+
+
+.column {
+    float: left;
+    padding: 15px;
+    height: 300px;
+    }
+    
+    .column.side {
+    width: 25%;
+    }
+    .column.middle {
+    width: 20%;
+    }
+    
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+    
+    .footer {
+    font-size: 12px;
+    padding: 100px;
+    text-align: right;
+    }
+    
+    @media (max-width: 500px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+    }
+    
+    p {
+    font-style: bold;
+    }
+    
+    p {
+    font-style: 'Lobster', cursive;
+    font-size: 24px;
+    color: cyan;
+    }
+    
+    <p style="color:white; font-family:Dancing Script', cursive;">Upload An Image!</p>
+            
+            <pre>
+                <p style="font-size:20px; //Paragragh one// </p>
+            </pre>
+    
+    p.small {
+            font-variant: small-caps;
